@@ -1,0 +1,40 @@
+body {
+    background: black;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 600px;
+    background: white;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    background-image: url("https://www.kibrispdr.org/data/10/background-e-ktp-44.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-weight: 900;
+    text-align: left;
+    width: 100%;
+    direction: rtl;
+    padding: 0 10px;
+}
+
+center {
+    font-weight: 900;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+img {
+    padding: 0 280px;
+}

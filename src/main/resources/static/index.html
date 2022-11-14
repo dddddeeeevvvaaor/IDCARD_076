@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Project KTP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>Project KTP</div>
+    <hr>
+    <form action="/sendData" method="post" enctype="multipart/form-data">
+        <label>Nama : </label><input type="text" name="myname" /><br>
+        <br><label>Tanggal Lahir : </label><input type="date" name="tanggal"><br>
+        <br><label>Foto : </label><input type="file" name="myimage" /><br>
+        <br><input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
